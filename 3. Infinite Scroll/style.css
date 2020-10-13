@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  max-width: 100vw;
+  text-align: center;
+  background-color: #f1f2f3;
+}
+h1 {
+  margin: 0.5rem;
+}
+
+.img-container {
+  max-width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-container img {
+  width: 20rem;
+  max-height: 90vh;
+  object-fit: cover;
+  margin-bottom: 0.3rem;
+  display: none;
+}
+
+#loadingSvg {
+  margin: auto;
+}
