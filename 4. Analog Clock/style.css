@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#clock-container {
+  margin: 2rem auto;
+  position: relative;
+  height: 60vh;
+  width: 60vh;
+  background: url(clock.jpg) no-repeat center;
+  background-size: 100%;
+}
+#hour-con,
+#min-con,
+#sec-con {
+  position: absolute;
+  transform-origin: bottom;
+  background-color: black;
+}
+#sec-con {
+  height: 36%;
+  width: 1%;
+  top: 14%;
+  right: 49.49%;
+}
+#min-con {
+  height: 30%;
+  width: 1.2%;
+  top: 20%;
+  right: 49.399%;
+}
+#hour-con {
+  height: 24%;
+  width: 1.4%;
+  top: 26%;
+  right: 49.28888%;
+}
